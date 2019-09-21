@@ -93,8 +93,9 @@ equals() {
 
 
 .calculator {
+  border-radius: 10px;
   width: 400px;
-  margin: 0 auto;
+  margin: 20px auto;
   font-size: 40px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -105,7 +106,7 @@ equals() {
   grid-column: 1 / 5;
   background-color: rgb(8, 51, 189);
   color: white;
-  padding: 10px 0;
+  padding: 10px 0 10px 15px;
 }
 
 .zero {
@@ -116,6 +117,8 @@ equals() {
 .btn {
   background-color: #eee;
   border: 1px solid #999;
+  padding-left: 15px;
+
 }
 
 .operator {
