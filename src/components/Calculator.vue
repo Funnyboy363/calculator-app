@@ -104,7 +104,7 @@ equals() {
 
 .display {
   grid-column: 1 / 5;
-  background-color: rgb(8, 51, 189);
+  background-color: #333;
   color: white;
   padding: 10px 0 10px 15px;
 }
@@ -122,7 +122,7 @@ equals() {
 }
 
 .operator {
-  background-color: #333;
+  background-color: orange;
   color: white;
 }
 
